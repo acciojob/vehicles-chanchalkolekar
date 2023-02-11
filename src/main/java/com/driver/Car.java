@@ -81,4 +81,12 @@ public class Car extends Vehicle {
                 + ", and the direction is changed to: " + newDirection + " degrees");
     }
 
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
 }
